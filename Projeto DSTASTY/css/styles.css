@@ -6,7 +6,7 @@
     --color-white: #FFFFFF;
     --bg-light-gray: #E5E5E5;
     --text-gray: #5E5E5E;
-    --text-green:#02B814;
+    --text-green: #02B814;
 }
 
 * {
@@ -36,13 +36,13 @@ nav h1 {
 }
 
 #pizzas {
-    padding: 40px 0;
+    padding: 20px 0;
     background: var(--bg-light-gray);
 }
 
 .pizza-card {
     display: flex;
-    padding-top: 15px;
+    padding-top: 40px;
 }
 
 .pizza-card img {
@@ -55,19 +55,22 @@ nav h1 {
     background: var(--color-white);
     padding: 15px;
 }
-.pizza-card-description h3{
+
+.pizza-card-description h3 {
     font-family: 'Poppins', sans-serife;
     font-size: 24px;
     color: var(--text-gray);
     padding-top: 15px;
 }
-.pizza-card-description p{
+
+.pizza-card-description p {
     font-family: 'Poppins', sans-serife;
     font-size: 14px;
     color: var(--text-gray);
     padding-top: 34px;
 }
-.pizza-card-description h4{
+
+.pizza-card-description h4 {
     font-family: 'Poppins', sans-serife;
     font-size: 24px;
     color: var(--text-green);
@@ -75,5 +78,27 @@ nav h1 {
     padding-bottom: 15px;
 }
 
+#comments {
+    padding: 40px 0;
+    background: var(--color-white);
+}
 
+#comments h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serife;
+    font-size: 32px;
+    color: var(--text-gray);
+}
 
+.comments-client {
+    padding-bottom: 38px;
+}
+
+.card-comments {
+    padding: 20px 25px;
+    background: var(--color-yellow);
+    height: 79px;
+    color: var(--color-red);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
