@@ -42,6 +42,7 @@ nav h1 {
 
 .pizza-card {
     display: flex;
+    padding-top: 15px;
 }
 
 .pizza-card img {
