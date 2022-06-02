@@ -15,6 +15,10 @@
     margin: 0px;
     padding: 0px;
 }
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
 
 header {
     background-color: var(--color-red);
@@ -101,4 +105,22 @@ nav h1 {
     color: var(--color-red);
     border-radius: 12px;
     margin-bottom: 20px;
+}
+footer{
+    background: var(--color-red);
+    height: 120px;
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content a{
+    font-size: 16px;
+}
+.footer-content address{
+    font-size: 16px;
 }
